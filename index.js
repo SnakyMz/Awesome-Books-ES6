@@ -48,25 +48,25 @@ const titleText = document.querySelector('#title');
 const authorText = document.querySelector('#author');
 
 listBtn.onclick = () => {
-    list.style.display = 'block';
+    list.style.display = 'flex';
     addBook.style.display = 'none';
     contact.style.display = 'none';
 }
 
 addBookBtn.onclick = () => {
     list.style.display = 'none';
-    addBook.style.display = 'block';
+    addBook.style.display = 'flex';
     contact.style.display = 'none';
 }
 
 contactBtn.onclick = () => {
     list.style.display = 'none';
     addBook.style.display = 'none';
-    contact.style.display = 'block';
+    contact.style.display = 'flex';
 }
 
 window.onload = () => {
-    list.style.display = 'block';
+    list.style.display = 'flex';
     addBook.style.display = 'none';
     contact.style.display = 'none';
     books.display();
