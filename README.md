@@ -124,7 +124,7 @@ If you like this project and wish to collaborate. Please contact me.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Thanks to [Mohammad Moatafa](https://github.com/mahammad-mostafa) for bug fixing.
+- Big thanks to [Mohammad Moatafa](https://github.com/mahammad-mostafa) for bug fixing.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

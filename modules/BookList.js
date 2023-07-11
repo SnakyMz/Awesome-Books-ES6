@@ -3,7 +3,7 @@ export default class BookList {
     this.bookArray = JSON.parse(localStorage.getItem('jsonLibrary')) || [];
   }
 
-  display() {
+  display = () => {
     const library = document.querySelector('#library');
     library.innerHTML = '';
     this.bookArray.forEach((bookItem) => {
@@ -26,7 +26,7 @@ export default class BookList {
     });
   }
 
-  add(title, author) {
+  add = (title, author) => {
     const bookObject = {};
     bookObject.title = title;
     bookObject.author = author;
@@ -36,7 +36,7 @@ export default class BookList {
     this.display();
   }
 
-  removeBook(value) {
+  removeBook = (value) => {
     this.bookArray = this.bookArray.filter((book) => book.id !== value);
     localStorage.setItem('jsonLibrary', JSON.stringify(this.bookArray));
     this.display();
