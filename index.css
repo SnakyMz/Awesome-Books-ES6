@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+header {
+    border: 0.3rem solid black;
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2 {
+    margin: 1rem 0 0 0;
+}
+
+header ul {
+    display: inline-flex;
+    list-style: none;
+    gap: 1rem;
+    padding: 0;
+}
+
+#listBtn,
+#addBookBtn,
+#contactBtn {
+    text-decoration: none;
+    color: black;
+}
+
+#listBtn:hover,
+#addBookBtn:hover,
+#contactBtn:hover {
+    color: grey;
+}
+
+#list {
+    margin: 0;
+}
+
+#list h2 {
+    text-align: center;
+}
+
+#library {
+    border: 0.3rem solid black;
+    width: 99%;
+}
+
+.book {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.book:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.bookDetail {
+    display: inline-flex;
+    gap: 0.5rem;
+    margin-left: 1rem;
+    flex-wrap: wrap;
+}
+
+.removeBtn {
+    margin: 0.1rem;
+}
+
+.removeBtn:hover {
+    background-color: darkred;
+    color: white;
+}
+
+#addBook {
+    padding: 15%;
+}
+
+#addBook h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#title,
+#author {
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+#addBtn {
+    align-self: self-end;
+}
+
+#addBtn:hover {
+    background-color: darkred;
+    color: white;
+}
+
+#contact {
+    padding: 15%;
+}
+
+footer {
+    border: 0.3rem solid black;
+    display: inline-flex;
+    margin: 0;
+    width: 99%;
+}
+
+footer p {
+    margin-left: 2rem;
+}
